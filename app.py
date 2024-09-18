@@ -6,9 +6,9 @@ from PIL import Image
 
 st.header('Image Classification Model')
 
-model = load_model(r'Image_classify2.keras')
+model = load_model(r'Image_classify_final2.keras')
 
-data_cat = ['acne', 'chickenpox', 'monkeypox', 'normal']
+data_cat = ['acne', 'chickenpox', 'monkeypox', 'normal' ,'non-skin']
 
 img_height = 180
 img_width = 180
